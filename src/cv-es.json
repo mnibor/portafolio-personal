@@ -17,6 +17,16 @@
 		},
 		"profiles": [
 			{
+				"network": "Linkedin",
+				"username": "marcelorobin",
+				"url": "https://www.linkedin.com/in/marcelorobin/"
+			},
+			{
+				"network": "Github",
+				"username": "mnibor",
+				"url": "https://twitter.com/ominaca"
+			},
+			{
 				"network": "Twitter",
 				"username": "ominaca",
 				"url": "https://twitter.com/ominaca"

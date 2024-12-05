@@ -4,16 +4,21 @@ module.exports = {
 	purge: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
 		extend: {
-			typography: {
-				h: {
-					fontFamily: 'Montserrat',
+			typography: (theme) => ({
+				DEFAULT: {
+					css: {
+						h1: { fontFamily: 'Montserrat', fontSize: theme('fontSize.4xl') },
+						h2: { fontFamily: 'Montserrat', fontSize: theme('fontSize.3xl') },
+						h3: { fontFamily: 'Montserrat', fontSize: theme('fontSize.2xl') },
+						h4: { fontFamily: 'Montserrat', fontSize: theme('fontSize.xl') },
+						h5: { fontFamily: 'Montserrat', fontSize: theme('fontSize.lg') },
+						h6: { fontFamily: 'Montserrat', fontSize: theme('fontSize.base') },
+						p: { fontFamily: 'Inter' },
+					},
 				},
-				p: {
-					fontFamily: 'Inter',
-				},
-			},
+			}),
 		},
 	},
 	variants: {},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 }

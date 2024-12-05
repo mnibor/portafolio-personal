@@ -1,14 +1,25 @@
 ---
 import {basics} from '../../cv-es.json';
 const {name, label, image, email, phone, url, summary, location, profiles} = basics;
-const {city, region} = location;
+const {city, region, country} = location;
+const { network, username, url: profileUrl} = profiles
 ---
 
 <section>
-  <div class="container">
+  <div class="container prose">
     <div class="info">
-      <h1>{name}</h1>
-      <h2>{label}</h2>
+      <h1 class="text-zinc-700">{name}</h1>
+      <h3 class="text-zinc-500">{label}</h3>
+      <h6>{city}, {country}</h6>
+      <ul class="flex gap-2 list-none">
+        {profiles && profiles.map((profile) => (
+          <li>
+            <a href={profile.url} target="_blank" class="text-blue-500 hover:underline">
+              {profile.network}
+            </a>
+          </li>
+        ))}
+      </ul>
       <p class="text-lg leading-relaxed">{summary}</p>
     </div>
   </div>
