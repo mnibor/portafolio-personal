@@ -1,24 +1,25 @@
 {
 	"basics": {
-		"name": "John Doe",
-		"label": "Programmer",
+		"name": "Marcelo André Robin",
+		"label": "Desarrollador Fullstack - Frontend",
 		"image": "",
-		"email": "john@gmail.com",
-		"phone": "(912) 555-4321",
+		"email": "marcelorobin@gmail.com",
+		"phone": "(+54) 11-3601-2661",
 		"url": "https://johndoe.com",
-		"summary": "A summary of John Doe…",
+		"summary": "Desarrollador Fullstack apasionado por transformar ideas en aplicaciones web modernas y funcionales.\n\nCon años de experiencia en el desarrollo de aplicaciones de escritorio, he decidido redirigir mi carrera hacia el desarrollo web, combinando mi sólida base técnica con un enfoque creativo en la experiencia del usuario.\n\nMi objetivo es crear aplicaciones que no solo sean visualmente atractivas, sino que también resuelvan necesidades concretas de los usuarios de manera efectiva.\n\n Habilidades Destacadas\nFrontend: JavaScript, TypeScript, Next.js, React, Django, Laravel, Tailwind CSS, Bootstrap\nBackend: Node.js, Express, FastAPI\nGestión de Proyectos: Metodologías Ágiles, Scrum\n\n Logros Clave\nCofundador de Synergy2Devs, donde he liderado el desarrollo de múltiples proyectos web\nDesarrollo de 'netepScript', una herramienta que automatiza la configuración inicial de proyectos, mejorando la eficiencia del equipo en un 50%\n\n Colaboración\nActualmente busco oportunidades para colaborar en proyectos desafiantes que requieran soluciones web innovadoras. Si tu organización necesita un desarrollador fullstack que combine experiencia técnica con visión estratégica, conectemos!",
 		"location": {
-			"address": "2712 Broadway St",
-			"postalCode": "CA 94115",
-			"city": "San Francisco",
-			"countryCode": "US",
-			"region": "California"
+			"address": "Dr. Eleodoro Lobos 440",
+			"postalCode": "1405",
+			"city": "Ciudad Autónoma de Buenos Aires",
+			"country": "Argentina",
+			"countryCode": "AR",
+			"region": "Buenos Aires"
 		},
 		"profiles": [
 			{
 				"network": "Twitter",
-				"username": "john",
-				"url": "https://twitter.com/john"
+				"username": "ominaca",
+				"url": "https://twitter.com/ominaca"
 			}
 		]
 	},

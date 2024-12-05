@@ -3,7 +3,16 @@ module.exports = {
 	mode: 'jit',
 	purge: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			typography: {
+				h: {
+					fontFamily: 'Montserrat',
+				},
+				p: {
+					fontFamily: 'Inter',
+				},
+			},
+		},
 	},
 	variants: {},
 	plugins: [],
