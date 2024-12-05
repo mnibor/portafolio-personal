@@ -1,7 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-	mode: 'jit',
-	purge: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
+// tailwind.config.mjs
+export default {
+	content: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
 		extend: {
 			typography: (theme) => ({
@@ -19,6 +18,5 @@ module.exports = {
 			}),
 		},
 	},
-	variants: {},
 	plugins: [require('@tailwindcss/typography')],
 }
