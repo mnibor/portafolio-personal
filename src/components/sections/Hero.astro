@@ -1,0 +1,15 @@
+---
+import {basics} from '../../cv-es.json';
+const {name, label, image, email, phone, url, summary, location, profiles} = basics;
+
+const {city, region} = location;
+---
+
+<section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+    </div>
+  </div>
+</section>
