@@ -1,4 +1,6 @@
 // tailwind.config.mjs
+import typography from '@tailwindcss/typography' // Importa el plugin
+
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
@@ -18,5 +20,5 @@ export default {
 			}),
 		},
 	},
-	plugins: [require('@tailwindcss/typography')],
+	plugins: [typography], // Usa la variable importada
 }
