@@ -1,37 +1,45 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import About from '../components/sections/About.astro';
-import Education from '../components/sections/Education.astro';
-import Experience from '../components/sections/Experience.astro';
+import { Icon } from 'astro-icon';
 import Hero from '../components/sections/Hero.astro';
+import About from '../components/sections/About.astro';
+import Experience from '../components/sections/Experience.astro';
 import Projects from '../components/sections/Projects.astro';
+import Education from '../components/sections/Education.astro';
 import Skills from '../components/sections/Skills.astro';
+
+const sections = [
+  { id: 'about', title: 'Sobre mí', component: About, icon: 'mdi:account' },
+  { id: 'experience', title: 'Experiencia', component: Experience, icon: 'mdi:briefcase' },
+  { id: 'projects', title: 'Proyectos', component: Projects, icon: 'mdi:rocket' },
+  { id: 'education', title: 'Educación', component: Education, icon: 'mdi:school' },
+  { id: 'skills', title: 'Habilidades', component: Skills, icon: 'mdi:tools' },
+];
 ---
 
 <Layout title="Portafolio Personal">
-  <main class="container px-4 py-8 mx-auto">
-    <section class="mb-8">
-      <Hero />
-    </section>
+  <main class="container max-w-6xl px-4 py-8 mx-auto">
+    <Hero />
 
-		<section class="mb-8">
-      <About />
-    </section>
+    <nav class="sticky top-0 z-10 py-4 bg-white/80 backdrop-blur-sm">
+      <ul class="flex justify-center space-x-4">
+        {sections.map(({ id, title, icon }) => (
+          <li>
+            <a href={`#${id}`} class="flex items-center px-3 py-2 text-sm font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-gray-900">
+              <Icon name={icon} class="w-5 h-5 mr-2" />
+              {title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
 
-    <section class="mb-8">
-      <Experience />
-    </section>
-
-    <section class="mb-8">
-      <Projects />
-    </section>
-
-		<section class="mb-8">
-      <Education />
-    </section>
-
-    <section class="mb-8">
-      <Skills />
-    </section>
+    {sections.map(({ id, title, component: Component }) => (
+      <section id={id} class="py-16 scroll-mt-16">
+        <h2 class="mb-8 text-3xl font-bold text-center text-gray-800">{title}</h2>
+        <Component />
+      </section>
+    ))}
   </main>
 </Layout>
+
