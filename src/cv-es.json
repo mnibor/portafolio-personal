@@ -60,7 +60,16 @@
 			"startDate": "Diciembre 2020",
 			"endDate": "Actualidad",
 			"summary": "Desarrollo y mantenimiento de diversos sitios web, desarrollados con Django, Laravel PostgreSQL y MySQL.",
-			"highlights": []
+			"highlights": [
+				"Django",
+				"Laravel",
+				"PostgreSQL",
+				"MySQL",
+				"Javascript",
+				"HTML",
+				"CSS",
+				"Bootstrap"
+			]
 		},
 		{
 			"name": "DaiIchi Circuitos SA",
