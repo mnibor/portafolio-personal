@@ -6,7 +6,7 @@
 		"email": "marcelorobin@gmail.com",
 		"phone": "(+54) 11-3601-2661",
 		"url": "https://johndoe.com",
-		"summary": "Desarrollador Fullstack apasionado por transformar ideas en aplicaciones web modernas y funcionales.\n\nCon años de experiencia en el desarrollo de aplicaciones de escritorio, he decidido redirigir mi carrera hacia el desarrollo web, combinando mi sólida base técnica con un enfoque creativo en la experiencia del usuario.\n\nMi objetivo es crear aplicaciones que no solo sean visualmente atractivas, sino que también resuelvan necesidades concretas de los usuarios de manera efectiva.\n\n<strong>Habilidades Destacadas</strong>\n<ul><li>Frontend: JavaScript, TypeScript, Next.js, React, Django, Laravel, Tailwind CSS, Bootstrap</li><li>Backend: Node.js, Express, FastAPI</li><li>Gestión de Proyectos: Metodologías Ágiles, Scrum</li></ul>\n<strong>Logros Clave</strong>\n<ul><li>Cofundador de Synergy2Devs, donde he liderado el desarrollo de múltiples proyectos web</li><li>Desarrollo de 'netepScript', una herramienta que automatiza la configuración inicial de proyectos, mejorando la eficiencia del equipo en un 50%</li></ul>\n<strong>Colaboración</strong>\nActualmente busco oportunidades para colaborar en proyectos desafiantes que requieran soluciones web innovadoras. Si tu organización necesita un desarrollador fullstack que combine experiencia técnica con visión estratégica, conectemos!",
+		"summary": "<p>Desarrollador Fullstack apasionado por transformar ideas en aplicaciones web modernas y funcionales.<br><br>Con años de experiencia en el desarrollo de aplicaciones de escritorio, he decidido redirigir mi carrera hacia el desarrollo web, combinando mi sólida base técnica con un enfoque creativo en la experiencia del usuario. Mi objetivo es crear aplicaciones que no solo sean visualmente atractivas, sino que también resuelvan necesidades concretas de los usuarios de manera efectiva.</p><p><strong>Habilidades Destacadas:</strong></p><ul><li><strong> - Frontend:</strong> JavaScript, TypeScript, Next.js, React, Django, Laravel, Tailwind CSS, Bootstrap</li><li><strong> - Backend:</strong> Node.js, Express, FastAPI</li><li><strong> - Gestión de Proyectos:</strong> Metodologías Ágiles, Scrum</li></ul><p><strong>Logros Clave:</strong></p><ul><li> - Cofundador de Synergy2Devs, donde he liderado el desarrollo de múltiples proyectos web</li><li> - Desarrollo de 'netepScript', una herramienta que automatiza la configuración inicial de proyectos, mejorando la eficiencia del equipo en un 50%</li></ul><p><strong>Colaboración:</strong> <br><br>Actualmente busco oportunidades para colaborar en proyectos desafiantes que requieran soluciones web innovadoras. Si tu organización necesita un desarrollador fullstack que combine experiencia técnica con visión estratégica, ¡conectemos!</p>",
 		"location": {
 			"address": "Dr. Eleodoro Lobos 440",
 			"postalCode": "1405",
@@ -24,35 +24,51 @@
 			{
 				"network": "Github",
 				"username": "mnibor",
-				"url": "https://twitter.com/ominaca"
+				"url": "https://github.com/mnibor"
 			},
 			{
 				"network": "Twitter",
 				"username": "ominaca",
 				"url": "https://twitter.com/ominaca"
+			},
+			{
+				"network": "YouTube",
+				"username": "Código para Principiantes",
+				"url": "https://www.youtube.com/@codigoparaprincipiantes"
 			}
 		]
 	},
 	"work": [
 		{
-			"name": "Company",
-			"position": "President",
-			"url": "https://company.com",
-			"startDate": "2013-01-01",
-			"endDate": "2014-01-01",
-			"summary": "Description…",
-			"highlights": ["Started the company"]
-		}
-	],
-	"volunteer": [
+			"name": "Henry Bootcamp",
+			"position": "Teaching Assistant",
+			"startDate": "Agosto 2024",
+			"endDate": "Actualidad",
+			"summary": "Asistente de enseñanza (TA) para alumnos de Henry (Bootcamp Fullstack Developer). Tareas principales: - Coordinar el grupo de estudiantes con el objetivo de lograr su adaptación al programa - Orientar a los estudiantes en los primeros pasos de la cursada y resolver sus inquietudes - Asistir y acompañar en la resolución de ejercicios y promover la colaboración Grupal (Pair Programming) - Proponer ideas para la mejora de los procesos del Bootcamp - Promover la cohesión grupal y generar una comunidad colaborativa de estudiantes",
+			"highlights": [
+				"Habilidades blandas",
+				"Metodologías Ágiles",
+				"Comunicación interpersonal",
+				"Resolución de problemas",
+				"Trabajo en equipo",
+				"Comunicación"
+			]
+		},
 		{
-			"organization": "Organization",
-			"position": "Volunteer",
-			"url": "https://organization.com/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description…",
-			"highlights": ["Awarded 'Volunteer of the Month'"]
+			"name": "Desarrollador Freelance",
+			"position": "Fullstack Developer",
+			"startDate": "Diciembre 2020",
+			"endDate": "Actualidad",
+			"summary": "Desarrollo y mantenimiento de diversos sitios web, desarrollados con Django, Laravel PostgreSQL y MySQL.",
+			"highlights": []
+		},
+		{
+			"name": "DaiIchi Circuitos SA",
+			"position": "Desarrollador de Software a medida",
+			"startDate": "Julio 2008",
+			"endDate": "Diciembre 2020",
+			"summary": "Desarrollo de Software Contable y Herramientas Empresariales Personalizadas: Diseñé y desarrollé un software contable a medida para optimizar procesos de facturación y control financiero, adaptado a las necesidades específicas de la empresa. Además, implementé diversas herramientas para mejorar la productividad y los procesos internos, incluyendo: Mantenimiento y mejora del software de producción existente, optimizando su rendimiento y funcionalidad.Desarrollo de una aplicación para la gestión de stock de componentes electrónicos, permitiendo un control más eficiente de inventarios. Creación de una solución para el manejo automatizado del corte de circuitos impresos mediante CNC, mejorando la precisión y reduciendo tiempos de operación. Diseño de una aplicación para programar el ensamblado en máquinas robotizadas de inserción de componentes electrónicos, facilitando la configuración y agilizando los tiempos de ensamblaje. Inicio del desarrollo de una intranet corporativa, destinada a centralizar la información y mejorar la comunicación interna.",
+			"highlights": ["Started the company"]
 		}
 	],
 	"education": [
@@ -102,7 +118,7 @@
 	"languages": [
 		{
 			"language": "English",
-			"fluency": "Native speaker"
+			"fluency": "B1"
 		}
 	],
 	"interests": [
@@ -125,6 +141,18 @@
 			"description": "Description...",
 			"highlights": ["Won award at AIHacks 2016"],
 			"url": "https://project.com/"
+		}
+	],
+	"Studying": [
+		{
+			"institution": "Instituto Politecnico Nacional",
+			"url": "https://institutopolitico.com/",
+			"area": "Software Development",
+			"studyType": "Bachelor",
+			"startDate": "2011-01-01",
+			"endDate": "2013-01-01",
+			"score": "4.0",
+			"courses": ["DB1101 - Basic SQL"]
 		}
 	]
 }

@@ -1,23 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/sections/Hero.astro';
-import About from '../components/sections/About.astro';
 import Experience from '../components/sections/Experience.astro';
 import Projects from '../components/sections/Projects.astro';
 import Education from '../components/sections/Education.astro';
 import Skills from '../components/sections/Skills.astro';
+import Studying from '../components/sections/Studying.astro';
 
 const sections = [
-  { id: 'about', title: 'Sobre mí', component: About },
-  { id: 'experience', title: 'Experiencia', component: Experience },
+  { id: 'experience', title: 'Experiencia Laboral', component: Experience },
   { id: 'projects', title: 'Proyectos', component: Projects },
   { id: 'education', title: 'Educación', component: Education },
   { id: 'skills', title: 'Habilidades', component: Skills },
+  { id: 'studying', title: 'Estudiando', component: Studying },
 ];
 ---
 
 <Layout title="Portafolio Personal">
-  <main class="container max-w-6xl px-4 py-8 mx-auto">
+  <main class="container max-w-6xl px-4 py-8 mx-auto antialiased">
     <Hero />
     {sections.map(({ id, title, component: Component }) => (
       <section id={id} class="py-16 scroll-mt-16">
