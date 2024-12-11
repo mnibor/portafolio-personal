@@ -67,8 +67,14 @@
 			"position": "Desarrollador de Software a medida",
 			"startDate": "Julio 2008",
 			"endDate": "Diciembre 2020",
-			"summary": "Desarrollo de Software Contable y Herramientas Empresariales Personalizadas: Diseñé y desarrollé un software contable a medida para optimizar procesos de facturación y control financiero, adaptado a las necesidades específicas de la empresa. Además, implementé diversas herramientas para mejorar la productividad y los procesos internos, incluyendo: Mantenimiento y mejora del software de producción existente, optimizando su rendimiento y funcionalidad.Desarrollo de una aplicación para la gestión de stock de componentes electrónicos, permitiendo un control más eficiente de inventarios. Creación de una solución para el manejo automatizado del corte de circuitos impresos mediante CNC, mejorando la precisión y reduciendo tiempos de operación. Diseño de una aplicación para programar el ensamblado en máquinas robotizadas de inserción de componentes electrónicos, facilitando la configuración y agilizando los tiempos de ensamblaje. Inicio del desarrollo de una intranet corporativa, destinada a centralizar la información y mejorar la comunicación interna.",
-			"highlights": ["Started the company"]
+			"summary": "Diseñé y desarrollé software contable a medida para optimizar procesos de facturación y control financiero, adaptado a las necesidades específicas de la empresa. Además, implementé diversas herramientas para mejorar la productividad y los procesos internos, incluyendo: Mantenimiento y mejora del software de producción existente, optimizando su rendimiento y funcionalidad. Desarrollo de una aplicación para la gestión de stock de componentes electrónicos, permitiendo un control más eficiente de los inventarios del sector de armado. Creación de una solución para el manejo automatizado del corte de circuitos impresos mediante CNC, mejorando la precisión y reduciendo tiempos de operación al simplificar procesos manuales existentes hasta el momento. Diseño de una aplicación para programar el ensamblado en máquinas robotizadas de inserción de componentes electrónicos, facilitando la configuración y agilizando los tiempos de ensamblaje. Inicio del desarrollo de una intranet corporativa, destinada a centralizar la información y mejorar la comunicación interna.",
+			"highlights": [
+				"Visual Basic 6",
+				"Visual Basic .NET",
+				"PostgreSQL",
+				"SQL Server",
+				"Laravel"
+			]
 		}
 	],
 	"education": [
