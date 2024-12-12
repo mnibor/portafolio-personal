@@ -59,7 +59,7 @@
 			"position": "Fullstack Developer",
 			"startDate": "Diciembre 2020",
 			"endDate": "Actualidad",
-			"summary": "Desarrollo y mantenimiento de diversos sitios web, desarrollados con Django, Laravel PostgreSQL y MySQL. Durante la pandemia, a varios clientes les ofrecí un servicio de asistencia a la hora de resolver sus problemas de ventas en la web, ofreciéndoles la posibilidad de desarrollar su propia tienda online.",
+			"summary": "Durante los últimos años, me he especializado en el desarrollo y mantenimiento de sitios web, principalmente tiendas online y plataformas de comercio electrónico, utilizando tecnologías como Django, Laravel, PostgreSQL y MySQL. En respuesta a la pandemia, lideré la migración digital de varios negocios, desarrollando soluciones de comercio electrónico personalizadas que les permitieron mantenerse operativos e incluso aumentar sus ventas online en un promedio del 40%. Entre mis proyectos más destacados se encuentra el desarrollo de una tienda online para una empresa del sector gastronómico, que experimentó un crecimiento del 30% en sus ventas durante el primer trimestre tras la implementación. Varios de los proyectos que inicié durante este periodo siguen activos y generando ingresos para mis clientes, demostrando la sostenibilidad y el éxito de las soluciones implementadas.",
 			"highlights": [
 				"Django",
 				"Laravel",
@@ -76,13 +76,14 @@
 			"position": "Desarrollador de Software a medida",
 			"startDate": "Julio 2008",
 			"endDate": "Diciembre 2020",
-			"summary": "Diseñé y desarrollé software contable a medida para optimizar procesos de facturación y control financiero, adaptado a las necesidades específicas de la empresa. Además, implementé diversas herramientas para mejorar la productividad y los procesos internos, incluyendo: Mantenimiento y mejora del software de producción existente, optimizando su rendimiento y funcionalidad. Desarrollo de una aplicación para la gestión de stock de componentes electrónicos, permitiendo un control más eficiente de los inventarios del sector de armado. Creación de una solución para el manejo automatizado del corte de circuitos impresos mediante CNC, mejorando la precisión y reduciendo tiempos de operación al simplificar procesos manuales existentes hasta el momento. Diseño de una aplicación para programar el ensamblado en máquinas robotizadas de inserción de componentes electrónicos, facilitando la configuración y agilizando los tiempos de ensamblaje. Inicio del desarrollo de una intranet corporativa, destinada a centralizar la información y mejorar la comunicación interna.",
+			"summary": "Mi experiencia se centra en el diseño y desarrollo de soluciones de software a medida para optimizar procesos empresariales. En un proyecto clave, desarrollé software contable que mejoró significativamente la eficiencia de la facturación y el control contable, adaptándose a las necesidades específicas de la empresa. Además, me enfoqué en mejorar la productividad y los procesos internos mediante la implementación de diversas herramientas. En el área de producción, me responsabilicé de la corrección de errores críticos en el software existente, a la vez que mejoré la interfaz para visualizar datos clave del proceso productivo, optimizando su rendimiento y usabilidad. Desarrollé una aplicación para la gestión de stock de componentes electrónicos, lo que permitió un control de inventario un 20% más eficiente. También automaticé el manejo del corte de circuitos impresos mediante CNC, reduciendo el tiempo de operación en un 15% y mejorando la precisión al simplificar procesos manuales. Asimismo, diseñé una aplicación para programar el ensamblado en máquinas de inserción de componentes, agilizando los tiempos de ensamblaje en un 10%. Mi objetivo es crear soluciones tecnológicas que generen un impacto positivo y tangible en las empresas, optimizando sus procesos y mejorando su eficiencia.",
 			"highlights": [
 				"Visual Basic 6",
 				"Visual Basic .NET",
 				"PostgreSQL",
 				"SQL Server",
-				"Laravel"
+				"Laravel",
+				"CAD-CAM"
 			]
 		}
 	],
